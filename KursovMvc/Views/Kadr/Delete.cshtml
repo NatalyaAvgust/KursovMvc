@@ -1,0 +1,97 @@
+﻿@model KursovMvc.Models.Table
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Table</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.fam)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fam)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.daterj)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.daterj)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.oklad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.oklad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.daterab)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.daterab)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.doljn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.doljn)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.adres)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.adres)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.id_graf)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.id_graf)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KursovMvc", "KursovMvc\KursovMvc.csproj", "{3741D5E8-7B64-40A9-8577-480BA1E64C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KursovMvc.Tests", "KursovMvc.Tests\KursovMvc.Tests.csproj", "{92E7E409-1709-4405-A833-38BDEBA8AF1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3741D5E8-7B64-40A9-8577-480BA1E64C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3741D5E8-7B64-40A9-8577-480BA1E64C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3741D5E8-7B64-40A9-8577-480BA1E64C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3741D5E8-7B64-40A9-8577-480BA1E64C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E7E409-1709-4405-A833-38BDEBA8AF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E7E409-1709-4405-A833-38BDEBA8AF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E7E409-1709-4405-A833-38BDEBA8AF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E7E409-1709-4405-A833-38BDEBA8AF1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A5A52AC-2676-4C03-93B8-22242374A4DA}
+	EndGlobalSection
+EndGlobal

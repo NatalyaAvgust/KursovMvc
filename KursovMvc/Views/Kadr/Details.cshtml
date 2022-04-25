@@ -1,0 +1,91 @@
+﻿@model KursovMvc.Models.Table
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Table</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.fam)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fam)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.daterj)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.daterj)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.oklad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.oklad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.daterab)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.daterab)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.doljn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.doljn)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.adres)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.adres)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.id_graf)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.id_graf)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
